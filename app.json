@@ -1,0 +1,25 @@
+{
+  "package_id": "Vaultwarden",
+  "display_name": "Vaultwarden",
+  "type": "vaultwarden",
+  "upstream_repo": "dani-garcia/vaultwarden",
+  "description": "Vaultwarden 是一个使用 Rust 编写的非官方 Bitwarden 服务器实现，它与官方 Bitwarden 客户端兼容，对于不希望使用官方的占用大量资源的自托管部署而言，它是理想的选择。",
+  "description_chs": "Vaultwarden 是一个使用 Rust 编写的非官方 Bitwarden 服务器实现，它与官方 Bitwarden 客户端兼容，对于不希望使用官方的占用大量资源的自托管部署而言，它是理想的选择。",
+  "maintainer": "Daniel García",
+  "maintainer_url": "https://github.com/dani-garcia/vaultwarden",
+  "distributor": "onelxzy",
+  "distributor_url": "https://github.com/onelxzy",
+  "os_min_ver": "7.0-40851",
+  "category": "Security",
+  "changelog": "自动构建，对应上游 {tag}。",
+  "architectures": [
+    {
+      "family": "x86_64",
+      "docker_arch": "amd64"
+    },
+    {
+      "family": "arm",
+      "docker_arch": "arm64"
+    }
+  ]
+}

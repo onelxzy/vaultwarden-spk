@@ -1,0 +1,24 @@
+{
+    "Main.js": {
+        "SYNO.SDS.Vaultwarden.Instance": {
+            "type":"app",
+            "version": "1.28.1",
+            "desc": "Vaultwarden服务器",
+            "icon": "images/icon_{0}.png",
+            "title": "Vaultwarden服务器",
+            "texts": "texts",
+            "allowMultiInstance": false,
+            "waterfallLoadTexts": true,
+            "appWindow": "SYNO.SDS.Vaultwarden.Main",
+            "depend": []
+        },
+        "SYNO.SDS.Vaultwarden.Main": {
+		"type": "lib",
+		"title": "Vaultwarden服务器",
+		"icon": "images/icon_{0}.png",
+		"texts": "texts",
+		"depend": [
+		]
+	}
+    }
+}
