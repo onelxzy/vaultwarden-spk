@@ -50,11 +50,12 @@ python build.py
 仓库结构：
 
 ```
-build.py               构建脚本
-spk_builder.py         SPK 封装实现
-app.json               套件元数据与上游资产匹配规则
-template/              INFO、conf、scripts、UI 等套件框架文件
-.github/workflows/     自动构建与发布
+build.py                  构建脚本
+spk_builder.py            SPK 封装实现
+vaultwarden_artifacts.py  从官方 Docker 镜像中提取静态二进制与 web 前端
+app.json                  套件元数据与上游资产匹配规则
+template/                 INFO、conf、scripts、UI 等套件框架文件
+.github/workflows/        自动构建与发布
 ```
 
 最低 DSM 版本：7.0-40851
